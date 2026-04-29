@@ -73,7 +73,7 @@ git submodule update --init --recursive
 ### 3. 生成签名文件并配置
 进入项目路径，新建证书配置文件夹：`/YuyanIme/keystore`。`keystore`文件夹内放签名文件`*.jks`和配置文件`keystore.properties`。配置文件格式如下：
 ```sh
-storeFile=*.jks
+storeFile=keystore/*.jks
 storePassword=testPassword
 keyAlias=testalias
 keyPassword=testPassword
